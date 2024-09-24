@@ -1,0 +1,110 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh; /* Faz o formulário ocupar toda a altura do contêiner pai */
+  }
+.containerGlobalLogin {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f9f9f9; /* Fundo branco */
+    padding: 20px;
+    width: 100%;
+    height: 100vh;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    height: 100vh;
+    /* Permite que a seção de login cresça para preencher o espaço restante */
+  }
+  
+  .loginInit {
+    text-align: center;
+    margin-bottom: 20px;
+   font-size: 32px;
+   font-weight: bold;
+  }
+   .p{
+    font-size: 22px;
+    font-weight: normal;
+   }
+  .inputContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Espaçamento entre os elementos */
+    margin-bottom: 20px;
+    width: 100%; /* Faz com que os inputs preencham toda a largura disponível */
+    align-items: center;
+    
+    /* Centraliza os inputs e labels */
+  }
+  
+  .inputContainer label {
+    width: 100%;
+    max-width: 500px;
+    display: block;
+   
+  }
+  
+  .inputContainer input {
+    width: 100%;
+    max-width: 500px; /* Define a largura máxima dos inputs */
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+  
+  } 
+  .inputContainer a{
+    text-decoration: none;
+    width: 100%;
+    background-color: #205d8f;
+    border-radius: 4px;
+    padding: 3px 5px;
+    color: white;
+  }
+  
+  .button {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+    width: 100%;
+   
+  }
+  
+  .button button {
+    background-color: #205d8f;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 500px;
+    margin-top: 20px;
+    transition: 0.1s;
+  }
+  
+  .button button:hover {
+    background-color: #194569;
+    transition: 0.1s;
+  }
+  
+  .loginEnd {
+    text-align: center;
+   
+  }
+  .error {
+    color: red;
+    font-size: 12px; /* Tamanho da fonte da mensagem de erro */
+    margin-top: 2px; /* Reduz o espaço acima da mensagem de erro */
+    margin-bottom: -20px; /* Reduz o espaço abaixo da mensagem de erro */
+  }
+  .error:hover{
+    text-decoration: underline;
+  }
+  .inputError{
+    border-color: red;
+  }

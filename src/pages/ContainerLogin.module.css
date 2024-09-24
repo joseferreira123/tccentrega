@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+*{
+    font-family: "Poppins";
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    margin-bottom: 0;
+}
+.container{
+    position: relative;
+    background-color: #CDE1EF;;
+    width: 65%;
+    height: 100vh;
+    border-radius:  0px 50px 50px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    animation: containerMov 1s ease-in-out;
+ }
+ .borderImage{
+    border-radius: 50%;
+    background-color: #194569;
+    width: 350px;
+    height: 350px;
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 150px;
+}
+.topDecoration {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    animation: topDecoration 1s ease-in-out;
+    /* Opcional: garante que o elemento fique acima de outros elementos */
+  }
+  
+  .topDecoration img {
+    width: 250px; /* Ajuste o tamanho conforme necessário */
+     /* Mantém a proporção da imagem */
+  }
+ .containerGlobal{
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+}
+.div2{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 40px;
+    margin-top: 200px;
+    width: 38%;
+    margin-bottom: 460px;
+    flex-direction: column;
+}
+.div2 p{
+    margin-left: 14px;
+    margin-right: 10px;
+}
+.div2 h1{
+    margin-right: 350px;
+    font-size: 35px;
+}
+h2{
+    
+    font-weight: 500;
+}
+.buttons{
+    margin-right: 400px;
+    margin-top: 60px;
+}
+.divFunc{
+    margin-top: 40px;
+}
+.buttons button{
+    width: 200px;
+    background-color: #205d8f;;
+    cursor: pointer;
+    transition: 0.1s;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+}
+.buttons button:hover{
+    background-color: #0e73c6;
+
+}
+.buttons p{
+    font-size: 20px;
+    margin-left: 0px;
+}
+@keyframes containerMov{
+    from{
+        left: -500px;
+    }
+    to{
+        left: 0
+    }
+}
+@keyframes topDecoration {
+    from{
+        left: -500px;
+    }
+    to{
+        left: 0
+    }
+}
