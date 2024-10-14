@@ -17,7 +17,7 @@ const LoginForm = () => {
     return (
         <CreateForm 
             elements={elements} 
-            linkText={<p>Não tem uma conta? <Link to="/registerPage">Cadastre-se</Link></p>}
+            linkText={<p>Não tem uma conta? <Link to="/cadastroteste">Cadastre-se</Link></p>}
             schema={loginSchema}// Passe o schema correto
         />
     );

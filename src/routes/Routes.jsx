@@ -8,6 +8,9 @@ import Navbar from "../componentes/Navbar";
 import RegisterFunc from "../pages/RegisterFunc";
 import LoginFunc from "../pages/LoginFunc";
 import HomeFunc from "../pages/HomeFunc";
+import Cadastroteste from "../testecadastro/Cadastroteste";
+
+
 const RouterApp = () => {
   return (
       
@@ -22,6 +25,7 @@ const RouterApp = () => {
       <Route path="/loginFunc" element={<LoginFunc />} />
       <Route path="/registerFunc" element={<RegisterFunc/>} />
       <Route path="/homeFunc" element={<HomeFunc/>} />
+      <Route path="/cadastroteste" element={<Cadastroteste/>} />
       
     </Routes>
   </Router>
